@@ -1,0 +1,24 @@
+{
+  "name": "prompt_marketplace",
+  "version": "1.0.0",
+  "description": "backend for marketplace",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranaymantri16/Prompt-Marketplace-on-DAO.git"
+  },
+  "author": "mop_group",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranaymantri16/Prompt-Marketplace-on-DAO/issues"
+  },
+  "homepage": "https://github.com/pranaymantri16/Prompt-Marketplace-on-DAO#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
