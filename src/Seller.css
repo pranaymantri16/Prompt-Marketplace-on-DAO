@@ -1,0 +1,130 @@
+.seller-page {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    margin-top: 50px;
+  }
+  
+  .content-wrapper {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .wrapper-text{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .metamask-section {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .metamask-wrap{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    font-size: 16px;
+    gap: 20px;
+  }
+  
+  .warning-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: #dc2626;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+  }
+  
+  .metamask-button {
+    background-color: #001f3f;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .metamask-button:hover {
+    background-color: #003366;
+  }
+  
+  .metamask-button.connected {
+    background-color: #059669;
+  }
+  
+  .seller-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .form-group label {
+    font-weight: 600;
+    color: #374151;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #001f3f;
+  }
+  
+  .form-group input:disabled,
+  .form-group select:disabled,
+  .form-group textarea:disabled {
+    background-color: #f3f4f6;
+    cursor: not-allowed;
+  }
+  
+  .form-group textarea {
+    min-height: 120px;
+    resize: vertical;
+  }
+  
+  .form-group small {
+    color: #6b7280;
+    font-size: 0.875rem;
+  }
+  
+  .submit-button {
+    background-color: #001f3f;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  .submit-button:hover:not(:disabled) {
+    background-color: #003366;
+  }
+  
+  .submit-button:disabled {
+    background-color: #9ca3af;
+    cursor: not-allowed;
+  }
