@@ -73,6 +73,7 @@ const DaoApplicationForm = () => {
           const tx= await contract.mintMembershipNFT(
             formData.account,
             `https://gateway.lighthouse.storage/ipfs/${metadataHash}`
+            
           )
           console.log(tx);
           const reciept= await tx.wait();

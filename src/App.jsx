@@ -5,6 +5,9 @@ import About from "./Pages/About";
 import HelpDesk from "./Pages/Help";
 import CareerPage from "./Pages/Career";
 import DaoApplicationForm from "./DaoForm";
+import DaoPage from "./DaoPage";
+
+
 
 function App() {
   return (
@@ -15,6 +18,7 @@ function App() {
       <Route path="/help" element={<HelpDesk/>}/>
       <Route path="/career" element={<CareerPage/>}/>
       <Route path="/member" element={<DaoApplicationForm/>}/>
+      <Route path='/dao' element={<DaoPage/>}/>
     </Routes>
   );
 }
